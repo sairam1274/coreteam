@@ -60,7 +60,7 @@ module Coreteam
     config.assets.version = '1.0'
 
 
-    config.serve_static_assets = true
+    config.assets.initialize_on_precompile = false
 
   end
 end
